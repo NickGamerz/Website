@@ -116,3 +116,43 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+footer{
+    background-color: #191919;
+    color: white;
+    /* padding: 10px 10px; */
+}
+
+/* ICON */
+.Mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.Mid a{
+    height: 45px;
+    width: 45px;
+    background-color: #ffffff;
+    /* border: 2px solid black; */
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.Mid a i{
+    transform: scale(2);
+    transition: all 0.3s linear;
+    color: #191919;
+}
+
+a:hover i{
+    /* transform: scale(2); */
+    color: #191919;
+}
