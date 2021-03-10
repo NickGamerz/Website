@@ -321,7 +321,43 @@
     background-color:#2ecc71 ;
 }
 footer{
-    background-color: black;
+    background-color: #191919;
     color: white;
     padding: 10px 10px;
 }
+
+/* ICONS */
+
+ .Mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.Mid a{
+    height: 60px;
+    width: 60px;
+    background-color: #ffffff;
+    /* border: 2px solid black; */
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.Mid a i{
+    transform: scale(2);
+    transition: all 0.3s linear;
+    color: #191919;
+}
+
+a:hover i{
+    transform: scale(3);
+    color: #191919;
+}
+
